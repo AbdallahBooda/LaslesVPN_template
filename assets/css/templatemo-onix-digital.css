@@ -1,32 +1,4 @@
-/*
 
-TemplateMo 565 Onix Digital
-
-https://templatemo.com/tm-565-onix-digital
-
-
-------------------------------------------------
-Table of contents
-------------------------------------------------
-01. font & reset css
-02. reset
-03. global styles
-04. header
-05. banner
-06. features
-07. testimonials
-08. contact
-09. footer
-10. preloader
-11. search
-12. portfolio
-
---------------------------------------------- */
-/* 
----------------------------------------------
-font & reset css
---------------------------------------------- 
-*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* 
 ---------------------------------------------
@@ -209,32 +181,58 @@ body {
 
 .main-blue-button a {
   display: inline-block;
-  background-color: #03a4ed;
+  background-color: #F53838;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
   text-transform: capitalize;
   padding: 12px 25px;
-  border-radius: 23px;
+  border-radius: px;
   letter-spacing: 0.25px;
 }
 
 .main-blue-button-hover a {
   display: inline-block;
-  background-color: #03a4ed;
+  background-color: #F53838;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
   text-transform: capitalize;
   padding: 12px 25px;
-  border-radius: 23px;
+  border-radius: 5px;
   letter-spacing: 0.25px;
   transition: all .3s;
 }
 
 .main-blue-button-hover a:hover {
-  background-color: #ff695f;
+  background-color: #F53838;
 }
+
+.main-plan3-button a {
+  display: inline-block;
+  background-color: #F53838;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 12px 25px;
+  border-radius: 23px;
+  letter-spacing: 0.25px;
+}
+
+.main-plan-button a {
+  display: inline-block;
+  background-color: #F53838;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 12px 25px;
+  border-radius: 23px;
+  letter-spacing: 0.25px;
+}
+
+
 
 .main-red-button a {
   display: inline-block;
@@ -307,7 +305,7 @@ header
 }
 
 .header-area {
-  background-color: #fafafa;
+  background-color: #fff;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -322,7 +320,7 @@ header
 
 .header-area .main-nav {
   min-height: 80px;
-  background: transparent;
+  background: #fff;
 }
 
 .header-area .main-nav .logo {
@@ -372,14 +370,15 @@ header
 
 .header-area .main-nav .nav li:last-child a ,
 .background-header .main-nav .nav li:last-child a {
-  color: #fff !important;
+  color: #fff;
   padding: 0px 20px;
   font-weight: 400;
+
 }
 
 .header-area .main-nav .nav li:last-child a:hover,
 .header-area .main-nav .nav li:last-child a.active {
-  color: #fff !important;
+  color: white; !important;
 }
 
 .header-area .main-nav .nav li:last-child .main-red-button-hover a:hover,
@@ -863,32 +862,33 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 236px 0px 130px 0px;
+  padding: 175px 0px 130px 0px;
   position: relative;
   overflow: hidden;
 }
 
-.main-banner:after {
+/*.main-banner:after {
   content: '';
-  background-image: url(../images/baner-dec-left.png);
+  background-image: url(../images/1.png);
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
   top: 100px;
   width: 267px;
   height: 532px;
-}
+}*/
 
 .main-banner:before {
   content: '';
-  background-image: url(../images/banner-right-image.png);
+  background-image: url(../images/1.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  right: 0;
-  top: 100px;
-  width: 819px;
-  height: 674px;
+  right: 59px;
+    top: 169px;
+    width: 582px;
+    height: 357px;
+}
 }
 
 .main-banner .item {
@@ -1078,6 +1078,7 @@ About
 
 .about-us .left-image {
   margin-right: 30px;
+  width: 90%;
 }
 
 .about-us .section-heading h2 {
@@ -1318,7 +1319,7 @@ Pricing
 
 .pricing-tables .section-heading {
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 10px;
 }
 
 .pricing-tables .section-heading h2 {
@@ -1379,15 +1380,15 @@ Pricing
 }
 
 .pricing-tables .first-item {
-  background-image: url(../images/first-plan-bg.png);
+/*  background-image: url(../images/first-plan-bg.png);*/
 }
 
 .pricing-tables .second-item {
-  background-image: url(../images/second-plan-bg.png);
+/*  background-image: url(../images/second-plan-bg.png);*/
 }
 
 .pricing-tables .third-item {
-  background-image: url(../images/third-plan-bg.png);
+/*  background-image: url(../images/third-plan-bg.png);*/
 }
 
 
@@ -1397,24 +1398,25 @@ Subscribe
 --------------------------------------------- 
 */
 
-.subscribe {
-  margin-top: 120px;
+.subscribeuser {
+ margin-left:155px;
 }
 
 .subscribe .inner-content {
-  background-image: url(../images/subscribe-bg.png);
+  background-color:#fff ;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  border-radius: 20px;
+  border-radius: 3px;
   padding: 60px 0px;
   width: 100%;
   position: relative;
+  box-shadow: 0.2px 0.2px 1px 1px rgba(0,0,0,0.19)!important;
 }
 
 .subscribe .inner-content:after {
   content: '';
-  background-image: url(../images/subscribe-dec.png);
+/*  background-image: url(../images/subscribe-dec.png);*/
   position: absolute;
   width: 195px;
   height: 138px;
@@ -1426,7 +1428,7 @@ Subscribe
 
 .subscribe .inner-content h2 {
   font-size: 30px;
-  color: #fff;
+  color: black;
   font-weight: 700;
   text-align: center;
   margin-bottom: 25px;
@@ -1788,7 +1790,7 @@ Footer Style
 }
 
 footer {
-  margin-top: -50px;
+  margin-top: 0px;
   z-index: 2;
   position: relative;
 }
@@ -1822,7 +1824,7 @@ footer .about ul li {
 footer .about ul li a {
   width: 32px;
   height: 32px;
-  background-color: #03a4ed;
+  background-color: #F8F8F8;
   color: #fff !important;
   border-radius: 50%;
   text-align: center;
@@ -2022,4 +2024,37 @@ responsive
   .contact-us .info span {
     margin-bottom: 20px;
   }
+}
+
+.borderdetilse{
+  width: 32px;
+    height: 32px;
+    background-color: #FFECEC;
+    color: #fff !important;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    line-height: 32px;
+    font-size: 15px;
+}
+
+.inner-content-style {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 3px;
+    padding: 20px 0px;
+    width: 85%;
+    position: relative;
+    box-shadow: 1.2px 2.2px 6px 0px rgba(0,0,0,0.19)!important
+}
+.iconuser
+{
+      padding-left: 40px;
+    padding-top: 9px
+}
+.hruser
+{
+  box-shadow: 2px 0px 0px 0px rgba(0,0,0,0.19)!important;
 }
